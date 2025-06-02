@@ -264,6 +264,10 @@ p{
     flex-basis: 35%;
 }
 
+.text{
+    margin-bottom: 20px;
+}
+
 .container-right{
     flex-basis: 60%;
 }
@@ -273,10 +277,14 @@ p{
 }
 
 .social-icons{
-    margin-top: 30px;
+    margin-top: 30px; 
+    display: flex;
+    justify-content: left;
+    gap: 20px; 
 }
 
-.social-icons a{
+
+.social-icons a {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -284,6 +292,7 @@ p{
     display: inline-block;
     transition: transform 0.5s;
 }
+
 
 .social-icons a:hover{
     color: #ff004f;
@@ -298,8 +307,10 @@ p{
     background: #ff004f;
 }
 
-.contact-right form{
+.contact-right form input{
     width: 100%;
+    /* margin-left: 40px;
+    margin-right: 40px; */
 }
 
 form input, form textarea{
@@ -312,6 +323,8 @@ form input, form textarea{
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .copyright{
